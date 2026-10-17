@@ -30,7 +30,7 @@ root.title("Password Generator")
 root.geometry("380x260")
 root.config(bg="#f4f4f9")
 
-tk.Label(root, text="🔐 Secure Password Generator", font=("Arial", 14, "bold"), bg="#f4f4f9").pack(pady=15)
+tk.Label(root, text="Secure Password Generator", font=("Arial", 14, "bold"), bg="#f4f4f9").pack(pady=15)
 
 frame = tk.Frame(root, bg="#f4f4f9")
 frame.pack(pady=5)
@@ -49,4 +49,4 @@ result_entry.pack(pady=5)
 copy_btn = tk.Button(root, text="Copy to Clipboard", command=copy_to_clipboard, bg="#28a745", fg="white", font=("Arial", 10), width=20)
 copy_btn.pack(pady=5)
 
-root.mainloop()
+root.mainloop() 
